@@ -15,7 +15,16 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="1f93335f-539c-4fd4-9ea5-346adec76a62" name="Default" comment="" />
+    <list default="true" readonly="true" id="1f93335f-539c-4fd4-9ea5-346adec76a62" name="Default" comment="agile squared proj created. nothing but a gaelyk template&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="agilesquared.iws" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -122,7 +131,7 @@
       <file leaf-file-name="appengine-web.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/war/WEB-INF/appengine-web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="43" selection-start="577" selection-end="577" vertical-scroll-proportion="0.27578217">
+            <state line="21" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="0.41367322">
               <folding />
             </state>
           </provider>
@@ -362,6 +371,14 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -587,7 +604,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/war/WEB-INF/appengine-web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="43" selection-start="577" selection-end="577" vertical-scroll-proportion="0.27578217">
+        <state line="21" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="0.41367322">
           <folding />
         </state>
       </provider>
