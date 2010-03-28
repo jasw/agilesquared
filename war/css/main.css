@@ -1,9 +1,32 @@
-body {
-	font-family: Arial;
-	margin: 30px;
-}
+#header {
+    background:  url("/images/header_background.png")
+    no-repeat scroll center top transparent;
+    height:140px;
 
+}
+html{	background: #cfe1ed no-repeat bottom center url(/images/body_background.png); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; min-height: 100%; }
+	.wrapper{ width: 800px; margin: 0 auto; }
+
+#img_div{
+    display:none;
+}
+#patient{
+    text-align:center;
+    color:blueviolet;
+}
 h1 {
-	color: #D33381;
-	border-bottom: black 3px dotted;
+    text-align: center;
+    color: cornflowerblue;
+    
+    /*border-bottom: black 3px dotted*/;
+}
+IMG.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+#footer {
+color:#6D93AB;
+text-shadow:5 1px 5 rgba(255, 255, 255, 0.5);
+    text-align:center;
 }

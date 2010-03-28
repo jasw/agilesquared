@@ -1,15 +1,15 @@
 <html>
     <head>
-        <title>Gaelyk</title>
+        <title>agilesquared.com</title>
         
-        <link rel="shortcut icon" href="/images/gaelyk-small-favicon.png" type="image/png">
-        <link rel="icon" href="/images/gaelyk-small-favicon.png" type="image/png">
-        
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+
         <link rel="stylesheet" type="text/css" href="/css/main.css"/>
     </head>
     <body>
-        <div>
-            <img src="/images/gaelyk.png">
-            <img src="/images/google-app-engine-groovy.png" align="right">            
-        </div>
-        <div>
+    <div id="header">
+        
+    </div>
+       
+     

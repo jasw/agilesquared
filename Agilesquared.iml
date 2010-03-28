@@ -24,6 +24,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Android 2.1 Platform" level="application" />
+    <orderEntry type="library" name="GROOVY" level="project" />
+    <orderEntry type="library" name="GAELYK" level="project" />
   </component>
 </module>
 

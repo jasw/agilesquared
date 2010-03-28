@@ -89,6 +89,6 @@
     -->
 
     <welcome-file-list> 
-        <welcome-file>index.gtpl</welcome-file> 
+        <welcome-file>index.groovy</welcome-file> 
     </welcome-file-list>
 </web-app>
