@@ -16,9 +16,9 @@
   </component>
   <component name="ChangeListManager" verified="true">
     <list readonly="true" id="1f93335f-539c-4fd4-9ea5-346adec76a62" name="Default" comment="agile squared proj created. nothing but a gaelyk template&#10;" />
-    <list default="true" id="e824abeb-089a-402e-81a0-082772076415" name="" comment="">
-      <change type="DELETED" beforePath="F:\dev\agilesquared\war\images\r4n28x3e.bmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/war/index.gtpl" afterPath="$PROJECT_DIR$/war/index.gtpl" />
+    <list default="true" id="e824abeb-089a-402e-81a0-082772076415" name="" comment="replace jquery.fadein with show. as fadein does not work in chrome">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/war/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/war/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/WEB-INF/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -106,15 +106,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/war/WEB-INF/routes.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="datetime.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/war/WEB-INF/groovy/datetime.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,12 +115,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.gtpl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.gtpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/war/index.gtpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="0.18235995">
+            <state line="9" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="-6.375">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/war/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="19" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.6172986">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -184,11 +193,11 @@
       <list>
         <option value="$PROJECT_DIR$/war/WEB-INF/appengine-web.xml" />
         <option value="$PROJECT_DIR$/war/css/main.css" />
-        <option value="$PROJECT_DIR$/war/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/war/WEB-INF/includes/header.gtpl" />
         <option value="$PROJECT_DIR$/war/WEB-INF/groovy/index.groovy" />
         <option value="$PROJECT_DIR$/war/WEB-INF/includes/footer.gtpl" />
         <option value="$PROJECT_DIR$/war/index.gtpl" />
+        <option value="$PROJECT_DIR$/war/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -279,6 +288,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agilesquared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agilesquared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -620,7 +651,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrong word &quot;light-fingered&quot; replaced. as it has bad suggestions" />
+    <option name="LAST_COMMIT_MESSAGE" value="replace jquery.fadein with show. as fadein does not work in chrome" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -636,6 +667,7 @@
     <MESSAGE value="agile squared proj created. nothing but a gaelyk template&#10;" />
     <MESSAGE value="doctype in the header added. so ie and chrome works fine" />
     <MESSAGE value="wrong word &quot;light-fingered&quot; replaced. as it has bad suggestions" />
+    <MESSAGE value="replace jquery.fadein with show. as fadein does not work in chrome" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -682,20 +714,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/war/images/suc_homer.jpg">
       <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/war/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="34" selection-start="3354" selection-end="3354" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
     </entry>
@@ -769,9 +787,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/war/index.gtpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="0.18235995">
+        <state line="9" column="27" selection-start="266" selection-end="266" vertical-scroll-proportion="-6.375">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/war/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="19" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.6172986">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
       </provider>
     </entry>
   </component>
