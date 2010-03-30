@@ -1,3 +1,4 @@
+
 def files = [];
 new File("images").eachFile {file ->
   if (file.name.startsWith("suc_")) files << file

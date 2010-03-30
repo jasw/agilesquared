@@ -7,7 +7,7 @@
 </p>
 <script type="text/javascript">
     \$(document).ready(function() {
-        \$("#img_div").fadeIn("slow");
+        \$("#img_div").show("slow");
 
     });
 </script>
